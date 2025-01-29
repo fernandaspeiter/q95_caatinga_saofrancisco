@@ -1,5 +1,4 @@
-# q95_caatinga_saofrancisco
-# Praticando Machine Learning com Dados Ambientais
+# Praticando Machine Learning com Dados Ambientais (Caatinga/Bacia_São_Francisco)
 
 ## 📌 Sobre o Projeto
 Este repositório apresenta um exemplo de trabalho em que dados ambientais coletados em diferentes plataformas de dados abertos foram estudados usando modelos não-supervisionados e supervisionados de machine learning.
