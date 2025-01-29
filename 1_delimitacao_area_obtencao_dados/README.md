@@ -8,7 +8,7 @@ Utilizei o software **QGIS** para fazer a interseção entre os vetores das áre
 🔗 [Assista aqui](https://www.youtube.com/watch?v=xCaDnaDI3zw)  
 
 🖼️ **Figura:**
-![Área de estudo](visuals/area_estudo.png)
+<img src="visuals/area_estudo.png" alt="Fluxo de trabalho" width="700">
 
 ---
 
@@ -19,7 +19,7 @@ Foram obtidos dados referentes a:
 - **1 variável resposta numérica**: vazão.
 
 🖼️ **Figura:**
-![Bases de obtenção de dados](visuals/bases_obtencao_dados.png)
+<img src="visuals/bases_obtencao_dados.png" alt="Fluxo de trabalho" width="700">
 
 ### 🔹 Fontes de Dados:
 - **Precipitação e Vazão**: Obtidos de estações pluviométricas e fluviométricas pelo **plugin ANA Data Acquisition (QGIS)**.  
