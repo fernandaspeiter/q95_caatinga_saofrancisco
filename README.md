@@ -1,4 +1,4 @@
-# Praticando Machine Learning com Dados Ambientais (Caatinga/Bacia_São_Francisco)
+# Praticando Machine Learning com Dados Ambientais (vazão/variáveis climáticas/uso e cobertura do solo)
 
 ## 📌 Sobre o Projeto
 Este repositório apresenta um exemplo de trabalho em que dados ambientais coletados em diferentes plataformas de dados abertos foram estudados usando modelos não-supervisionados e supervisionados de machine learning.
