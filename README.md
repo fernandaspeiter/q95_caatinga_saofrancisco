@@ -25,6 +25,7 @@ Investigar o impacto dos fatores climáticos e do uso e cobertura do solo nas va
 
 ---
 📂 Para mais detalhes, acesse as subpastas de cada etapa do projeto.
+O trabalho completo em pdf também está disponível no repositório.
 
 Se tiver dúvidas ou sugestões, fique à vontade para contribuir ou entrar em contato! 😊
 
