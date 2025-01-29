@@ -2,7 +2,7 @@
 
 ## 📌 Definição da Área de Estudo
 A primeira etapa consiste na escolha da área a ser estudada. Aqui, escolhi a porção do bioma Caatinga localizada na Região Hidrográfica do São Francisco.  
-Utilizei o software **QGIS** para fazer a interseção entre os vetores das áreas referentes ao **bioma Caatinga** e da **Região Hidrográfica do São Francisco**.  
+Utilizei o software **QGIS** para fazer a interseção entre os vetores das áreas referentes ao **bioma Caatinga** e à **Região Hidrográfica do São Francisco**.  
 
 🎥 **Tutorial:** O vídeo do canal *Geoaplicada* no YouTube explica rapidamente como fazer esse processo:  
 🔗 [Assista aqui](https://www.youtube.com/watch?v=xCaDnaDI3zw)  
