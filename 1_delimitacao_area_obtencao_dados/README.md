@@ -26,6 +26,10 @@ Foram obtidos dados referentes a:
 🎥 **Tutorial:** O canal *Prof. Águas* no YouTube ensina como realizar esse processo:  
 🔗 [Assista aqui](https://www.youtube.com/watch?v=G-KgiA3Bk8Y)
 
+- **Uso e cobertura do solo**: Obtidos por meio dos Toolkits preparados no Google Earth Engine (GEE) pelo projeto **MAPBIOMAS**.
+🎥 **Tutorial:** O canal *MapBiomas Brasil* no YouTube mostra como ter acesso aos dados:
+🔗 [Assista aqui](https://www.youtube.com/watch?v=OBqaoSuLGbk&t=343s)
+
 - **Demais dados:**
   - 🌍 **Shapefile das Regiões Hidrográficas** - [Agência Nacional de Águas](https://metadados.snirh.gov.br/geonetwork/srv/api/records/0574947a-2c5b-48d2-96a4-b07c4702bbab) *(acessado em 09/01/2024)*.
   - 🌱 **Shapefile do Bioma Caatinga** - [IBGE](https://www.ibge.gov.br/geociencias/cartas-e-mapas/informacoes-ambientais/15842-biomas.html?edicao=25799&t=acesso-ao-produto) *(acessado em 09/01/2024)*.
