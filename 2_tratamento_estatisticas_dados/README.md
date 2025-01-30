@@ -10,7 +10,62 @@ Os dados de vazão, obtidos por meio do plugin da **ANA (Agência Nacional de Á
 - Utilizamos **Python** com as bibliotecas `os`, `pandas` e `numpy` para criar um DataFrame consolidado chamado **`DF_final_vazao`**.
 - Durante o processo, **valores ausentes foram removidos** para evitar inconsistências.
 
-📌 **Código utilizado:** [`scripts/codigo_concatenar_exemplo.py`](../scripts/codigo_concatenar_exemplo.py)
+
+### **📝 Código (Clique para Expandir)**
+<details>
+  <summary>🔍 Ver Código Python</summary>
+
+  ```python
+  import os
+  import pandas as pd
+  import numpy as np
+
+  # Caminho para a pasta contendo os arquivos TXT
+  caminho_gauge_vazao = 'caminho da pasta gauges_vazao'
+
+  # Lista para armazenar os DataFrames de cada arquivo
+  dfs_vazao = []
+
+  # Itera sobre todos os arquivos na pasta
+  for arquivo_vazao in os.listdir(caminho_gauge_vazao):
+      if arquivo_vazao.endswith('.txt'):
+          # Lê o arquivo e cria um DataFrame
+          caminho_arquivo_vazao = os.path.join(caminho_gauge_vazao, arquivo_vazao)
+          DF_vazao = pd.read_csv(
+              caminho_arquivo_vazao, delim_whitespace=True, header=None, encoding='latin-1')  
+          
+          # Adiciona uma coluna com o nome do arquivo
+          DF_vazao['CD_estacao'] = arquivo_vazao
+          dfs_vazao.append(DF_vazao)
+
+  # Concatena os DataFrames em partes menores
+  tamanho_parte = 30  # ajuste conforme necessário
+  partes = [pd.concat(dfs_vazao[i:i+tamanho_parte], ignore_index=True) 
+            for i in range(0, len(dfs_vazao), tamanho_parte)]
+
+  # Concatena as partes para obter o DataFrame final
+  DF_final_vazao = pd.concat(partes, ignore_index=True)
+
+  # Renomear as colunas
+  DF_final_vazao = DF_final_vazao.rename(columns={0: 'dia', 1: 'mes', 2:'ano', 3:'vazao_diaria'})
+
+  # Remove o termo ".txt" da coluna 'CD_estacao'
+  DF_final_vazao['CD_estacao'] = DF_final_vazao['CD_estacao'].str.replace('.txt', '')
+
+  # Converte a coluna 'vazao_diaria' para numérica e trata valores negativos como NaN
+  DF_final_vazao['vazao_diaria'] = pd.to_numeric(DF_final_vazao['vazao_diaria'], errors='coerce')
+  DF_final_vazao['vazao_diaria'] = np.where(DF_final_vazao['vazao_diaria'] < 0, np.nan, 
+                                             DF_final_vazao['vazao_diaria'])
+
+  # Remove linhas com valores NaN
+  DF_final_vazao = DF_final_vazao.dropna()
+
+  # Salva em CSV
+  DF_final_vazao.to_csv('DF_vazao.csv', index=False)
+  ```
+
+</details>
+
 
 📊 **Recorte do resultado gerado:**
 ![resultado_concatenado](https://github.com/user-attachments/assets/98895d11-6874-405a-8073-f5f01b8429ff)
