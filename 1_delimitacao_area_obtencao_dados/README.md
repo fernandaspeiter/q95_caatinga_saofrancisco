@@ -8,7 +8,7 @@ Utilizei o software **QGIS** para fazer a interseção entre os vetores das áre
 🔗 [Assista aqui](https://www.youtube.com/watch?v=xCaDnaDI3zw)  
 
 🖼️ **Mapa da região de estudo:**
-<img src="[https://user-images.githubusercontent.com/123456789/abcdefg.png](https://github.com/user-attachments/assets/e4d712bc-703b-4fef-8189-8655eb899c00)" alt="Minha Figura" width="600px">
+![area_estudo](https://github.com/user-attachments/assets/aa7bd2ff-8e35-49ac-a42e-7c0f7a8f3a8a)
 
 ---
 
@@ -19,7 +19,7 @@ Foram obtidos dados referentes a:
 - **1 variável resposta numérica**: vazão.
 
 🖼️ **Fontes dos dados:**
-![bases_obtencao_dados](https://github.com/user-attachments/assets/1b88953a-3c47-4766-b049-c7c2538bb691)
+![bases_obtencao_dados](https://github.com/user-attachments/assets/2c739667-ad51-4db1-81a2-353fb3cf028d)
 
 ### 🔹 Fontes de Dados:
 - **Precipitação e Vazão**: Obtidos de estações pluviométricas e fluviométricas pelo **plugin ANA Data Acquisition (QGIS)**.  
