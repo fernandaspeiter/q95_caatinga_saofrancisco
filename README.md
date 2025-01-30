@@ -20,8 +20,7 @@ Investigar o impacto dos fatores climáticos e do uso e cobertura do solo nas va
 - **RStudio** para modelagem e machine learning
 
 ## 🔄 Etapas do Trabalho
-<img src="visuals/etapas_trabalho.png" alt="Fluxo de trabalho" width="700">
-(*Figura ilustrando as etapas do trabalho*)
+![etapas_trabalho](https://github.com/user-attachments/assets/3f7e9fa6-23dd-41ae-a4ea-a7d4a16cf859)
 
 ---
 📂 Para mais detalhes, acesse as subpastas de cada etapa do projeto.
