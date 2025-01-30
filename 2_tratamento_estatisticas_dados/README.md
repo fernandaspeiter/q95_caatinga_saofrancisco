@@ -13,7 +13,7 @@ Os dados de vazão, obtidos por meio do plugin da **ANA (Agência Nacional de Á
 📌 **Código utilizado:** [`scripts/codigo_concatenar_exemplo.py`](../scripts/codigo_concatenar_exemplo.py)
 
 📊 **Recorte do resultado gerado:**
-![Resultado da concatenação](../visuals/resultado_concatenado.png)
+![resultado_concatenado](https://github.com/user-attachments/assets/98895d11-6874-405a-8073-f5f01b8429ff)
 
 ---
 
@@ -47,9 +47,9 @@ Após a organização final dos dados, realizamos a análise estatística descri
 
 📈 **Resultados das estatísticas descritivas:**
 - **Variáveis numéricas:**
-  ![Estatísticas numéricas](../visuals/stat_numericos.png)
+ ![stat_numericos](https://github.com/user-attachments/assets/58a338a3-3ca4-49c8-929a-ed726518043f)
 - **Variáveis categóricas:**
-  ![Estatísticas categóricas](../visuals/stat_categoricos.png)
+![stat_categoricos](https://github.com/user-attachments/assets/5bb39556-5a77-4217-b6d7-175f3a50f2be)
 
 ---
 
