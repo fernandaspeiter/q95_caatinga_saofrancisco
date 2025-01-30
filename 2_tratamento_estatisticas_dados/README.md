@@ -61,6 +61,5 @@ Após a organização final dos dados, realizamos a análise estatística descri
 
 ---
 
-Agora os dados estão organizados e prontos para a **análise exploratória e modelagem!** 🚀
-
-
+Agora os dados estão organizados e prontos para a **modelagem!** 🚀
+- Para mais detarlhes, você pode consultar o pdf do trabalho
