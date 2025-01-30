@@ -23,7 +23,8 @@ Após o tratamento inicial, foi realizada a **interpolação espacial** dos dado
 🔹 **Técnica utilizada:**
 - **Método IDW (Inverse Distance Weighting)**, disponível no **QGIS**.
 - O IDW gera **mapas interpolados**, atribuindo pesos às medições com base na proximidade dos pontos.
-- Tutorial: VasGeo - Soluções em Geotecnologias 
+- Tutorial: VasGeo - Soluções em Geotecnologias
+🔗 [Assista aqui](https://www.youtube.com/watch?v=_4K5pK2On1Y)
 
 ---
 
@@ -34,7 +35,7 @@ Com os mapas interpolados das variáveis numéricas e os mapas classificados da 
 - Utilizou-se a ferramenta **"Criação de Pontos Regulares"** do **QGIS** para definir os pontos de amostragem.
 - Os valores das variáveis foram extraídos das camadas raster geradas pela interpolação.
 - Tutorial: TecnoGIS 
-
+🔗 [Assista aqui](https://www.youtube.com/watch?v=KjjYAOZZqHM)
 ---
 
 ### 📊 4. Estatísticas Descritivas
