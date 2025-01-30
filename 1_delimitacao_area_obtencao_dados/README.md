@@ -8,7 +8,7 @@ Utilizei o software **QGIS** para fazer a interseção entre os vetores das áre
 🔗 [Assista aqui](https://www.youtube.com/watch?v=xCaDnaDI3zw)  
 
 🖼️ **Mapa da região de estudo:**
-![area_estudo](https://github.com/user-attachments/assets/e4d712bc-703b-4fef-8189-8655eb899c00)
+<img src="[https://user-images.githubusercontent.com/123456789/abcdefg.png](https://github.com/user-attachments/assets/e4d712bc-703b-4fef-8189-8655eb899c00)" alt="Minha Figura" width="600px">
 
 ---
 
