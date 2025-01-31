@@ -3,13 +3,12 @@
 Na etapa anterior, foram obtidos dados de diferentes fontes. Agora, é necessário organizá-los e entender sua estrutura antes de utilizá-los nos modelos.
 
 ### 📌 1. Concatenando os Arquivos de Vazão
-Os dados de vazão, obtidos por meio do plugin da **ANA (Agência Nacional de Águas)**, vieram em **múltiplos arquivos `.txt`** — um para cada gauge. Para consolidar as informações em um único **arquivo `.csv`**, foi necessário concatenar os dados.
+Os dados de vazão e precipitação, obtidos por meio do plugin da **ANA (Agência Nacional de Águas)**, vieram em **múltiplos arquivos `.txt`** — um para cada gauge. Para consolidar as informações em um único **arquivo `.csv`**, foi necessário concatenar os dados. Segue o exemplo do processo para os dados de vazão:
 
 🔹 **Processo realizado:**
 - Os arquivos `.txt` foram armazenados na pasta `gauges_vazao/`.
 - Utilizamos **Python** com as bibliotecas `os`, `pandas` e `numpy` para criar um DataFrame consolidado chamado **`DF_final_vazao`**.
 - Durante o processo, **valores ausentes foram removidos** para evitar inconsistências.
-
 
 ### **📝 Código (Clique para Expandir)**
 <details>
@@ -72,8 +71,8 @@ Os dados de vazão, obtidos por meio do plugin da **ANA (Agência Nacional de Á
 
 ---
 
-### 🌍 2. Interpolação Espacial das Variáveis Numéricas
-Após o tratamento inicial, foi realizada a **interpolação espacial** dos dados de cada variável numérica por ano.
+### 🌍 2. Distribuição Espacial das Variáveis Numéricas
+Após o tratamento inicial, foi realizada uma **distribuição espacial** dos dados de cada variável numérica por ano.
 
 🔹 **Técnica utilizada:**
 - **Método IDW (Inverse Distance Weighting)**, disponível no **QGIS**.
@@ -94,7 +93,7 @@ Com os mapas interpolados das variáveis numéricas e os mapas classificados da 
 ---
 
 ### 📊 4. Estatísticas Descritivas
-Após a organização final dos dados, realizamos a análise estatística descritiva utilizando **Pandas**.
+A análise estatística descritiva foi realizada utilizando **Pandas**.
 
 🔹 **Funções utilizadas:**
 - `describe()` → Para variáveis **numéricas**.
@@ -116,5 +115,4 @@ Após a organização final dos dados, realizamos a análise estatística descri
 
 ---
 
-Agora os dados estão organizados e prontos para a **modelagem!** 🚀
-- Para mais detarlhes, você pode consultar o pdf do trabalho
+- Para maiores detalhes, consultar o pdf do trabalho.
