@@ -66,7 +66,7 @@ Os dados de vazão e precipitação, obtidos por meio do plugin da **ANA (Agênc
 </details>
 
 
-📊 **Recorte do resultado gerado:**
+📊 **Recorte do resultado gerado:**  
 ![resultado_concatenado](https://github.com/user-attachments/assets/98895d11-6874-405a-8073-f5f01b8429ff)
 
 ---
@@ -90,6 +90,9 @@ Com os mapas interpolados das variáveis numéricas e os mapas classificados da 
 - Os valores das variáveis foram extraídos das camadas raster geradas pela interpolação.
 - Tutorial: TecnoGIS 
 🔗 [Assista aqui](https://www.youtube.com/watch?v=KjjYAOZZqHM)
+
+![interpolacao_idw](https://github.com/user-attachments/assets/df48c222-030d-40d9-9370-19783775676a)
+
 ---
 
 ### 📊 4. Estatísticas Descritivas
