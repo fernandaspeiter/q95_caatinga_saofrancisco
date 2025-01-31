@@ -7,7 +7,7 @@ Utilizei o software **QGIS** para fazer a interseção entre os vetores das áre
 🎥 **Tutorial:** O vídeo do canal *Geoaplicada* no YouTube explica rapidamente como fazer esse processo:  
 🔗 [Assista aqui](https://www.youtube.com/watch?v=xCaDnaDI3zw)  
 
-🖼️ **Mapa da região de estudo:**:
+🖼️ **Mapa da região de estudo:**\  
 ![area_estudo](https://github.com/user-attachments/assets/aa7bd2ff-8e35-49ac-a42e-7c0f7a8f3a8a)
 
 ---
@@ -18,7 +18,7 @@ Foram obtidos dados referentes a:
 - **1 variável explicativa categórica**: tipo de uso e cobertura do solo.
 - **1 variável resposta numérica**: vazão.
 
-🖼️ **Fontes dos dados:**:
+🖼️ **Fontes dos dados:**\
 ![bases_obtencao_dados](https://github.com/user-attachments/assets/2c739667-ad51-4db1-81a2-353fb3cf028d)
 
 ### 🔹 Fontes de Dados:
