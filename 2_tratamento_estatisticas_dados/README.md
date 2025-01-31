@@ -91,7 +91,7 @@ Com os mapas interpolados das variáveis numéricas e os mapas classificados da 
 - Tutorial: TecnoGIS 
 🔗 [Assista aqui](https://www.youtube.com/watch?v=KjjYAOZZqHM)
 
-![interpolacao_idw](https://github.com/user-attachments/assets/df48c222-030d-40d9-9370-19783775676a)
+![interpolacao_idw](https://github.com/user-attachments/assets/8d8181db-5b58-44b7-b053-cb95ec322ae4)
 
 ---
 
