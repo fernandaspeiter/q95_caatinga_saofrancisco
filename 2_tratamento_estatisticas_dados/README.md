@@ -116,6 +116,18 @@ Esse conjunto de dados é um indicativo que reforça a escassez hídrica na regi
 
 ![histogramas](https://github.com/user-attachments/assets/f0a15999-bc3d-477c-8fad-e2d80a1eea55)
 
+
+Já para a **variável categórica**, observou-se as seguintes **frequências relativas** para os tipos de uso e cobertura do solo:
+- Floresta: 51,8%
+- Agropecuária: 41,2%
+- Formação natural não florestal: 4,4%
+- Corpo d'água: 1,4%
+- Área não vegetada: 1,2%
+Os resultados mostraram que apesar de a cobertura predominante ser a vegetação nativa,
+a agropecuária já ocupa grande parte da área.
+
+![cobertura](https://github.com/user-attachments/assets/96f6363b-c343-446b-9847-240c2fb733ac)
+
 ---
 
 ### 🎯 Resumo do Processo
