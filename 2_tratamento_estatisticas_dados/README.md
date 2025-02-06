@@ -108,6 +108,14 @@ A análise estatística descritiva foi realizada utilizando **Pandas**.
 - **Variáveis categóricas:**
 ![stat_categoricos](https://github.com/user-attachments/assets/5bb39556-5a77-4217-b6d7-175f3a50f2be)
 
+Os histogramas a seguir apresentam a distribuição dos dados para a região estudada.  
+Algumas observações interessantes observadas nesses gráficos são as baixíssimas vazões de referência encontradas 
+(com 75% dos dados abaixo dos 20 m³/s, representado pelo 3° quartil) e baixos níveis de chuvas 
+(com 75% dos dados apresentando valores abaixo de 1 mm/dia). 
+Esse conjunto de dados é um indicativo que reforça a escassez hídrica na região. 
+
+![histogramas](https://github.com/user-attachments/assets/f0a15999-bc3d-477c-8fad-e2d80a1eea55)
+
 ---
 
 ### 🎯 Resumo do Processo
