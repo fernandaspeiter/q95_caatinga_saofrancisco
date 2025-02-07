@@ -48,7 +48,7 @@ ggplotly(
 )
 ```
 
-![spearman](https://github.com/user-attachments/assets/053a0893-0ab2-4b36-8b36-75d37a732af8)
+![spearman](https://github.com/user-attachments/assets/3ba97653-8015-4592-b2e5-04ad634e5cad)
 
 ### Resultados
 As variáveis analisadas não apresentaram altas correlações. Os pares mais correlacionados foram:
@@ -95,7 +95,7 @@ ggplot(cargas_fatoriais, aes(x = PC1, y = PC2, label = rownames(cargas_fatoriais
        y = paste0("PC2 (", round(fatorial2$Vaccounted[2,2] * 100, 1), "% da variância)"))
 ```
 
-![PCA](https://github.com/user-attachments/assets/68c8544d-811d-4266-b0b2-79b579ab4c5d)
+![PCA](https://github.com/user-attachments/assets/9c043dfc-3e87-4129-9acd-f22b532ced34)
 
 ### Resultados
 Os dois primeiros componentes principais explicaram **72,5%** da variância dos dados originais:
@@ -108,5 +108,4 @@ Optou-se por manter todas as variáveis na modelagem, garantindo uma representa�
 
 ---
 **Referência:** Fávero, L. P., & Belfiore, P. (2017). Análise de dados: modelagem multivariada para tomada de decisão. Elsevier Brasil.
-
 
