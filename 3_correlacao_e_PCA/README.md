@@ -1,6 +1,6 @@
 # Análise de Correlação de Spearman e PCA
 
-Este repositório apresenta a análise de correlação de Spearman e Análise de Componentes Principais (PCA) aplicada a um conjunto de dados ambientais.
+Esta etapa apresenta a análise de correlação de Spearman e Análise de Componentes Principais (PCA) aplicada a um conjunto de dados ambientais.
 
 ## 1. Introdução
 Após o tratamento dos dados brutos e a espacialização das variáveis, foi realizada a correlação de Spearman. Este método é mais adequado para avaliar relações não lineares entre as variáveis.
