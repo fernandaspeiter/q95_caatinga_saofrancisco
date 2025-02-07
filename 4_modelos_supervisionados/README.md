@@ -8,13 +8,13 @@ Esta etapa apresenta a análise da capacidade de predição do conjunto de dados
 - Random Forest
 
 #### Etapas
-- **Regressão Linear e Regressão Não Linear**  / 
+- **Regressão Linear e Regressão Não Linear**  \ 
 ![regressao_linear](https://github.com/user-attachments/assets/b62770dc-68f4-4cb9-af53-4b6c83bd68ed)
 
-- **Árvore de Regressão**  / 
+- **Árvore de Regressão**  \ 
 ![arvore_regressao](https://github.com/user-attachments/assets/1254e3a9-ee56-4262-91ef-c81db5851ecb)
 
-- **Random Forest**  / 
+- **Random Forest**  \
 ![random_forest](https://github.com/user-attachments/assets/0da686d3-4313-4754-a866-3181b37cac48)
 
 ### Parâmetros e Resultados dos Modelos
