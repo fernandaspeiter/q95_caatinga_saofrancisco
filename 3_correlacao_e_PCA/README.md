@@ -1,11 +1,12 @@
 # Análise de Correlação de Spearman e PCA
 
-Esta etapa apresenta a análise de correlação de Spearman e Análise de Componentes Principais (PCA) aplicada a um conjunto de dados ambientais.
+Esta etapa apresenta a análise de correlação de Spearman e Análise por Componentes Principais (PCA) aplicada ao conjunto de dados ambientais,
+utilizando o R-Studio.
 
 ## 1. Introdução
 Após o tratamento dos dados brutos e a espacialização das variáveis, foi realizada a correlação de Spearman. Este método é mais adequado para avaliar relações não lineares entre as variáveis.
 
-## 2. Instalação e Carregamento dos Pacotes
+## 2. Instalação e Carregamento dos Pacotes no R
 ```r
 install.packages(c("readr", "Hmisc", "ggplot2", "plotly", "reshape2", "dplyr", "psych", "PerformanceAnalytics", "kableExtra", "ggrepel"))
 
@@ -21,7 +22,7 @@ library(kableExtra)
 library(ggrepel)
 ```
 
-## 3. Correlação de Spearman
+## 3. Correlação de Spearman no R
 ```r
 # Carregar a base de dados
 df_amostra <- read_csv("q95_caatinga_RHSF_exemplo.csv")
@@ -55,7 +56,7 @@ As variáveis analisadas não apresentaram altas correlações. Os pares mais co
 - **Temperatura e umidade do ar** (-0,56)
 - **Precipitação e umidade do ar** (0,54)
 
-## 4. Análise de Componentes Principais (PCA)
+## 4. Análise por Componentes Principais (PCA) no R
 A PCA é uma técnica de redução dimensional que busca identificar correlações entre variáveis originais e reduzir a complexidade dos dados.
 
 ```r
@@ -102,7 +103,8 @@ Os dois primeiros componentes principais explicaram **72,5%** da variância dos 
 - **PC2**: Relacionado à radiação solar (0,834) e velocidade do vento (-0,516), inferindo condições de alta radiação solar e vento fraco.
 
 ## 5. Conclusão
-A análise indicou que as variáveis estão inter-relacionadas, e a PCA ajudou a resumir essas relações sem perda significativa de informação. Optou-se por manter todas as variáveis na modelagem, garantindo uma representação completa do sistema climático na Região Hidrográfica do São Francisco.
+A análise indicou que as variáveis estão inter-relacionadas, e a PCA ajudou a resumir essas relações sem perda significativa de informação. 
+Optou-se por manter todas as variáveis na modelagem, garantindo uma representação completa do sistema climático na Região Hidrográfica do São Francisco.
 
 ---
 **Referência:** Fávero, L. P., & Belfiore, P. (2017). Análise de dados: modelagem multivariada para tomada de decisão. Elsevier Brasil.
