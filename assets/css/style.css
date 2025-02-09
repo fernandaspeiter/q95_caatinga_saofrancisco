@@ -42,3 +42,34 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+#toggle-menu {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+#nav-menu {
+    display: none; /* Ocultar o menu inicialmente */
+}
+
+#nav-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#nav-menu ul li {
+    margin: 5px 0;
+}
+
+/* Exibir o menu quando ativo */
+.show-menu {
+    display: block !important;
+}
