@@ -12,52 +12,11 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
-
-  <script>
-  document.getElementById("toggle-sidebar").addEventListener("click", function() {
-      // Seleciona a barra lateral e o corpo da página
-      var sidebar = document.getElementById("sidebar");
-      var body = document.body;
-  
-      // Alterna a classe para esconder ou mostrar a barra lateral
-      sidebar.classList.toggle("hidden-sidebar");
-      body.classList.toggle("sidebar-hidden");
-      
-      // Altera a setinha do botão dependendo do estado
-      if (sidebar.classList.contains("hidden-sidebar")) {
-          document.getElementById("toggle-sidebar").innerHTML = "&#8592;"; // Setinha para a esquerda (indicando que pode expandir)
-      } else {
-          document.getElementById("toggle-sidebar").innerHTML = "&#8594;"; // Setinha para a direita (indicando que pode recolher)
-      }
-  });
-  </script>
-
-   <!-- Botão para ocultar/exibir a barra lateral -->
-        <button id="toggle-sidebar">
-          &#8594; <!-- Setinha para a direita (indicando que pode expandir) -->
-        </button>
-  
+   
   <body>
     <div class="wrapper">
       <header>
 
-        <!-- Botão para ocultar/exibir a barra lateral -->
-        <button id="toggle-sidebar">&#8594;</button>
-
-        <!-- Barra lateral (que pode ser oculta) -->
-        <aside id="sidebar">
-          <p><a href="#">Link 1</a></p>
-          <p><a href="#">Link 2</a></p>
-          <p><a href="#">Link 3</a></p>
-        </aside>
-      
-        <!-- Conteúdo principal (index.md) -->
-        <div id="main-content">
-          {{ content }}
-        </div>
-      </body>
-     
-        
         <!– Insere um título acima da figura –>
         <h1><a href="{{ "/" | absolute_url }}"></a></h1>
 
