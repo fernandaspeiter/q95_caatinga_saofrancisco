@@ -2,3 +2,33 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+/* Estilos para a barra lateral */
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+    transition: transform 0.3s ease; /* Animação suave */
+}
+
+/* Estilo para o conteúdo principal */
+#main-content {
+    margin-left: 250px; /* Espaço para a barra lateral */
+    transition: margin-left 0.3s ease; /* Animação suave */
+}
+
+/* Estilo para ocultar a barra lateral */
+.hidden-sidebar {
+    transform: translateX(-250px); /* Move a barra lateral para a esquerda */
+}
+
+/* Ajuste do conteúdo principal quando a barra lateral está oculta */
+.sidebar-hidden #main-content {
+    margin-left: 0; /* O conteúdo principal ocupa toda a tela */
+}
+
