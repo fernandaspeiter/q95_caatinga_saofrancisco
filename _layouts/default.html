@@ -12,6 +12,14 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
+  
+  <script>
+  document.getElementById("toggle-menu").addEventListener("click", function() {
+    var menu = document.getElementById("nav-menu");
+    menu.classList.toggle("show-menu");
+  });
+  </script>
+
   <body>
     <div class="wrapper">
       <header>
