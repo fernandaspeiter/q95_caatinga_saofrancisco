@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Disponibilidade hídrica superficial do bioma Caatinga na região do São Francisco: abordagem usando técnicas de Machine Learning
+[Voltar para a página inicial](/)
+
+# Apresentação
 
 ## 📌 Sobre o Projeto
 Este repositório apresenta um exemplo de aplicação de dados ambientais, coletados em diferentes plataformas de dados abertos, a partir do uso modelos não-supervisionados e supervisionados de machine learning.
