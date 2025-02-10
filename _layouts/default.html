@@ -11,13 +11,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <script>
+      function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("hidden");
+      }
+    </script>
+    <style>
+      .hidden { display: none; }
+      .toggle-btn { cursor: pointer; padding: 10px; background: #007BFF; color: white; border: none; }
+      .toggle-btn:hover { background: #0056b3; }
+    </style>
   </head>
    
   <body>
     <div class="wrapper">
       <header>
-
-        <!– Insere um título acima da figura –>
+        <button class="toggle-btn" onclick="toggleSidebar()">☰ Toggle Sidebar</button>
+        
         <h1><a href="{{ "/" | absolute_url }}"></a></h1>
 
         {% if site.logo %}
@@ -39,8 +49,9 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-
-
+      </header>
+      
+      <div id="sidebar">
         <nav>
           <ul>
             <li><a href="{{ '/1_delimitacao_area_obtencao_dados/' | relative_url }}">1 - Delimitação da área e obtenção dos dados</a></li>
@@ -48,13 +59,10 @@
             <li><a href="{{ '/3_correlacao_e_PCA/' | relative_url }}">3 - Correlação de Spearman e PCA</a></li>
           </ul>
         </nav>
-
-        
-      </header>
+      </div>
+      
       <section>
-
       {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
@@ -66,3 +74,4 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
+
