@@ -30,15 +30,14 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="{{ assets/downloads/q95_caatinga_RHSF_exemplo.csv }}">Download <strong>dados.csv</strong></a></li>
+          <li><a href="{{ assets/downloads/TCC MBA USP Fernanda Peiter.pdf }}">Download <strong>TCC.pdf</strong></a></li>
         </ul>
         {% endif %}
 
         <nav>
           <ul>
-            <li><a href="{{ 'index.md' | relative_url }}">Apresentação</a></li>
+            <li><a href="{{ 'index.md/' | relative_url }}">Apresentação</a></li>
             <li><a href="{{ '/1_delimitacao_area_obtencao_dados/' | relative_url }}">1 - Delimitação da área e obtenção dos dados</a></li>
             <li><a href="{{ '/2_tratamento_estatisticas_dados/' | relative_url }}">2 - Tratamento de dados e estatística descritiva</a></li>
             <li><a href="{{ '/3_correlacao_e_PCA/' | relative_url }}">3 - Correlação de Spearman e PCA</a></li>
