@@ -1,29 +1,78 @@
----
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+    <style>
+        #sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            transition: transform 0.3s ease-in-out;
+            padding: 20px;
+        }
 
-@import "jekyll-theme-minimal";
+        #sidebar.hidden {
+            transform: translateX(-100%);
+        }
 
-#sidebar {
-  width: 250px;
-  transition: transform 0.3s ease-in-out;
-}
+        #toggle-btn {
+            position: fixed;
+            top: 10px;
+            left: 260px;
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            z-index: 1000;
+        }
 
-#sidebar.hidden {
-  transform: translateX(-100%);
-}
+        #sidebar.hidden + #toggle-btn {
+            left: 10px;
+        }
 
-#toggle-btn {
-  position: absolute;
-  top: 10px;
-  left: 250px;
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-}
+        .content {
+            margin-left: 270px;
+            transition: margin-left 0.3s ease-in-out;
+        }
 
-#sidebar.hidden #toggle-btn {
-  left: 0;
-}
+        .sidebar.hidden + .content {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle-btn">☰</button>
+    <div id="sidebar">
+        <h1><a href="{{ '/' | absolute_url }}">Meu Site</a></h1>
+        {% if site.logo %}
+        <img src="{{ '/assets/img/icone_caatinga_proj.png' | relative_url }}" alt="Logo" />
+        {% endif %}
+        <nav>
+            <ul>
+                <li><a href="{{ '/1_delimitacao_area_obtencao_dados/' | relative_url }}">1 - Delimitação da área e obtenção dos dados</a></li>
+                <li><a href="{{ '/2_tratamento_estatisticas_dados/' | relative_url }}">2 - Tratamento de dados e estatística descritiva</a></li>
+                <li><a href="{{ '/3_correlacao_e_PCA/' | relative_url }}">3 - Correlação de Spearman e PCA</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        {{ content }}
+    </div>
+    <script>
+        document.getElementById('toggle-btn').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
 
