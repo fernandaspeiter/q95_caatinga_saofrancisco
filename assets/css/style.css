@@ -3,29 +3,27 @@
 
 @import "jekyll-theme-minimal";
 
-/* Estiliza o botão de toggle */
-.toggle-btn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+#sidebar {
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Define a área lateral */
-.sidebar {
-    width: 250px;
-    padding: 20px;
-    background-color: #f8f9fa;
-    transition: transform 0.3s ease-in-out;
+#sidebar.hidden {
+  transform: translateX(-100%);
 }
 
-/* Oculta a sidebar quando ativada */
-.sidebar.hidden {
-    display: none;
+#toggle-btn {
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
+
+#sidebar.hidden #toggle-btn {
+  left: 0;
+}
+
