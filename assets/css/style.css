@@ -1,5 +1,12 @@
----
----
+#toggle-button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
 
-@import "jekyll-theme-minimal";
+#toggle-button:hover {
+  background-color: #006994;
+}
 
