@@ -17,7 +17,7 @@
     <div class="wrapper">
       <header>
 
-        <!– Insere um título acima da figura –>
+        <!-- Insere um título acima da figura -->
         <h1><a href="{{ "/" | absolute_url }}"></a></h1>
 
         {% if site.logo %}
@@ -40,7 +40,6 @@
         </ul>
         {% endif %}
 
-
         <nav>
           <ul>
             <li><a href="{{ '/1_delimitacao_area_obtencao_dados/' | relative_url }}">1 - Delimitação da área e obtenção dos dados</a></li>
@@ -49,13 +48,18 @@
           </ul>
         </nav>
 
-        
+        <!-- Botão Toggle -->
+        <button id="toggle-button">Toggle Details</button>
+
       </header>
-      <section>
 
-      {{ content }}
+      <!-- Envolvendo os detalhes do default em uma div -->
+      <div id="default-details">
+        <section>
+          {{ content }}
+        </section>
+      </div>
 
-      </section>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
@@ -64,6 +68,17 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      document.getElementById("toggle-button").addEventListener("click", function() {
+        var details = document.getElementById("default-details");
+        if (details.style.display === "none") {
+          details.style.display = "block";
+        } else {
+          details.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
+
 
