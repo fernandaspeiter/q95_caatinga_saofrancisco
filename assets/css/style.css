@@ -3,3 +3,22 @@
 
 @import "jekyll-theme-minimal";
 
+/* Oculta a sidebar por padrão */
+.sidebar {
+  display: block;
+  width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hidden {
+  transform: translateX(-100%);
+}
+
+/* Ajusta o conteúdo principal quando a sidebar está oculta */
+.content {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.hidden + .content {
+  margin-left: 0;
+}
