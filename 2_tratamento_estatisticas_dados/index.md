@@ -12,9 +12,7 @@ Os dados de vazão e precipitação, obtidos por meio do plugin da **ANA (Agênc
 - Utilizamos **Python** com as bibliotecas `os`, `pandas` e `numpy` para criar um DataFrame consolidado chamado **`DF_final_vazao`**.
 - Durante o processo, **valores ausentes foram removidos** para evitar inconsistências.
 
-### **📝 Código (Clique para Expandir)**
-<details>
-  <summary>🔍 Ver Código Python</summary>
+### **📝 Código no Python**
 
   ```python
   import os
@@ -64,9 +62,6 @@ Os dados de vazão e precipitação, obtidos por meio do plugin da **ANA (Agênc
   # Salva em CSV
   DF_final_vazao.to_csv('DF_vazao.csv', index=False)
   ```
-
-</details>
-
 
 📊 **Recorte do resultado gerado:**  
 ![resultado_concatenado](https://github.com/user-attachments/assets/98895d11-6874-405a-8073-f5f01b8429ff)
