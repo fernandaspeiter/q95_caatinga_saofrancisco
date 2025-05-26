@@ -24,7 +24,7 @@ Investigar o impacto dos fatores climáticos e do uso e cobertura do solo nas va
 ## 🛠️ Ferramentas Utilizadas
 - **QGIS** para manipulação de dados espaciais
 - **Python** para data wrangling e análises estatísticas 
-- **RStudio** para aplicaão das técnicas de machine learning
+- **RStudio** para aplicação das técnicas de machine learning
 
 ## Principais desafios encontrados
 - Poucas estações fluviométricas e muitos dados faltantes referentes à vazão na área estudada
